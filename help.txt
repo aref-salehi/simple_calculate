@@ -1,0 +1,26 @@
+# 1. ساخت یک برنچ جدید و سوئیچ به آن
+git checkout -b branch_name
+
+# 2. کدنویسی و تغییرات مورد نظر را انجام دهید
+# سپس تغییرات را add و commit کنید
+
+# 3. اضافه کردن فایل‌های تغییر یافته به stage
+git add .
+
+# یا برای اضافه کردن فایل‌های خاص
+git add file1.txt file2.js
+
+# 4. کامیت کردن تغییرات
+git commit -m "Your commit message here"
+
+# 5. پوش کردن برنچ به ریموت
+git push -u origin branch_name
+
+# 6. بازگشت به برنچ main
+git checkout main
+
+# 7. پس از مرج شدن تغییرات در گیت‌هاب/گیتلب، دریافت آخرین تغییرات
+git pull origin main
+
+# 8. حذف برنچ محلی (بعد از اطمینان از مرج شدن)
+git branch -D branch_name
