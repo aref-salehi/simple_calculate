@@ -51,11 +51,7 @@ modulo(a, b)                # باقی‌مانده تقسیم
 power(a, b)                 # توان
 square_root(a)              # جذر (بررسی منفی نبودن)
 factorial(n)                # فاکتوریل عدد صحیح
-calculate_chain(expression) # ارزیابی زنجیره عملیات ریاضی
-get_input(prompt)           # دریافت ورودی از کاربر با تبدیل امن
-print_menu()                # چاپ منوی اصلی
-exit_program()              # خروج با پیام مناسب
-handle_choice(choice)       # کنترل انتخاب و هدایت اجرای تابع مناسب
+
 ```
 
 ## ✅ گام‌های دقیق اجرای پروژه
