@@ -45,7 +45,7 @@
 add(a, b)                   # جمع دو عدد
 subtract(a, b)              # تفریق
 multiply(a, b)              # ضرب
-divide(a, b)                # تقسیم (بررسی تقسیم بر صفر)
+divide(a, b)                # تقسیم (بررسی تقسیم بر صفر) 
 integer_division(a, b)      # تقسیم صحیح
 modulo(a, b)                # باقی‌مانده تقسیم
 power(a, b)                 # توان
