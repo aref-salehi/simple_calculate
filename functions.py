@@ -1,11 +1,2 @@
-# add(a, b)                   # جمع دو عدد
-
-a = int ( input())
-
-b = int ( input())
-
-c = a + b 
- 
-print ( c )
-
-
+def add(num1 , num2 ) :
+    return num1+num2
