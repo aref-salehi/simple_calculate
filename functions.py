@@ -14,6 +14,7 @@ def divide(num1 , num2 ) :
     else:
         return answer
 
-
+def integer_division(num1 , num2 ) :
+    return num1/num2
 
 
