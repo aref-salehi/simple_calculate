@@ -17,4 +17,13 @@ def divide(num1 , num2 ) :
 def integer_division(num1 , num2 ) :
     return num1/num2
 
+def modulo(num1 , num2 ) :
+    return num1%num2
+
+
+
+
+
+
+
 
