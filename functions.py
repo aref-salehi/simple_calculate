@@ -24,6 +24,7 @@ def power(num1 , num2 ) :
     return num1**num2
 
 def square_root(num1 , num2 ) :
+    num2 = 1 / num2
     if num1 >= 0 :
         return num1**0.5
 
