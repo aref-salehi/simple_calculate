@@ -1,32 +1,40 @@
+from functions import add 
+from functions import subtract
+from functions import multiply
+from functions import divide
+from functions import modulo
+from functions import power
+from functions import square_root
+from functions import factorial
 
-num1 = input ()
+num1 = int (input ())
 math_operations = input ()
-num2 = input ()
+num2 = int (input ())
 
 
 
 
 if math_operations == ("+"):
-    add(num1 , num2)
+    print (add(num1 , num2))
     
 elif math_operations == ("-"):
-    subtract(num1 , num2 )
+    print (subtract(num1 , num2 ))
     
 elif math_operations == ("*"):
-    multiply(num1 , num2 )
+    print (multiply(num1 , num2 ))
     
 elif math_operations == ("/"):
-    divide(num1 , num2 )
+    print (divide(num1 , num2 ))
     
 elif math_operations == ("%"):
-    modulo(num1 , num2 )
+    print (modulo(num1 , num2 ))
     
 elif math_operations == ("**"):
-    power(num1 , num2 )
+    print (power(num1 , num2 ))
     
-elif math_operations == ("\|"):
-    square_root(num1 , num2 )
+elif math_operations == ("~"):
+    print (square_root(num1 , num2 ))
     
 elif math_operations ==("!"):
-    factorial(num1 )
+    print (factorial(num1 ))
     
